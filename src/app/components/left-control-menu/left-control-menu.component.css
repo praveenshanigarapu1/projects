@@ -1,0 +1,44 @@
+ .menus{
+    width: 200px;
+    padding:5px;
+    margin:1px;
+    font-weight:bold;
+    background-color: #0ff;
+    }
+    .menuitems{
+    display:none;
+    }
+
+    a{
+        display:block;
+        border-bottom: 1px solid #fff;
+        text-decoration: none;
+        background: #00f;
+        color: #fff;
+        padding:10px;
+        font-weight:bold;
+        width: 190px;
+        }
+
+     .menuitems a:hover  a.only-show-on-hover {
+        background: #000;
+        visibility: visible;
+        }
+     li {
+            display:inline;
+        }
+    ul{
+        display:inline;
+    } 
+
+    body{
+        position: fixed;
+        left: 0;
+        top: 100;
+        width: 17%;
+      
+        color: block;
+        text-align: left;
+        margin-block-start:70px;
+        
+    }

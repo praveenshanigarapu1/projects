@@ -1,0 +1,50 @@
+<!-- 
+<head>
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <p class="menus">Books</p>
+    <div class="menuitems">
+    <ul>
+    <li><a href="example.com">Web Development</a></li>
+    <li><a href="example.com">Programming</a></li>
+    <li><a href="example.com">RDBMS</a></li>
+    </ul>
+    </div>
+    <p class="menus">Movies</p>
+    <div class="menuitems">
+    <ul>
+    <li><a href="example.com">Latest Movie Trailers</a></li>
+    <li><a href="example.com">Movie Reviews</a></li>
+    <li><a href="example.com">Celebrity Interviews</a></li>
+    </ul>
+    </div>
+     <script type="text/javascript">
+            $(document).ready(function() {
+        $('p.menus').mouseout(function(){
+        $("div.menuitems'").slideUp("slow");
+        $('p').css({backgroundImage:""});
+        });
+        $('p.menus').mouseover(function(){
+        $(this).css({'background-image':"url(down.png)", 'background-repeat':"no-repeat",
+        'background-position':"right"}).next("div.menuitems").slideDown(500)
+        .siblings("div.menuitems").slideUp("slow");
+        $(this).siblings().css({backgroundImage:""});
+        });
+        });
+    </script>
+    </body> -->
+<body>
+        <p class="menus" (mouseover)='onMouseEnter()' (mouseout)=onMouseLeave()>Books</p>
+        <div class="menuitems">
+                <ul>
+                <li><a href="example.com">Web Development</a></li>
+                <li><a href="example.com">Programming</a></li>
+                <li><a href="example.com">RDBMS</a></li>
+                </ul>
+                </div> 
+    <!-- <p>Hello</p> -->
+</body>
+   
